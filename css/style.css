@@ -19,3 +19,38 @@ body {
 .card {
     height: 350px;
 }
+
+
+.gbox {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 40px;
+    height: 6px;
+    border-radius: 3px;
+    margin: 10px auto;
+    transition: all 1s ease;
+}
+
+.box:hover .line{
+    width: 120px;
+    
+}
+
+#image1{
+    background-image: url('https://picsum.photos/1980/500?random=10');
+}
+#grad1 {
+    background-image: repeating-conic-gradient(rgb(248, 201, 229) 0deg 10deg, rgb(216, 216, 206) 10deg 20deg, rgb(163, 163, 235) 20deg 30deg);
+    border-radius: 50%;
+}
+#grad{
+    background-image: linear-gradient(rgb(238, 231, 231), rgb(190, 126, 83));
+}

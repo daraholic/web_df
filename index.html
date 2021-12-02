@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body style="height: 1500px;">
+<body style="height: 3000px;">
     <!--  navbar toggler https://getbootstrap.com/docs/4.6/components/navbar/ -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -45,7 +45,7 @@
 
     <!-- carousel -->
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" aria-hidden="true"></i>" data-ride="carousel">
             <ol class="carousel-indicators">
                 <!-- indicator 指標 -->
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -109,45 +109,39 @@
         <div id="home" class="container tab-pane active"><br>
             <div class="card-deck">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://picsum.photos/1980/500?random=6" class="card-img-top" alt="...">
+                    <div class="col-md-4 mb-5 ">
+                        <div class="card w-80"> <img
+                                src="https://cdn.smehost.net/sonymusiccomtw-auprod/wp-content/uploads/2021/11/19439937972-300x300.jpg"
+                                class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">19</h5>
+                                <p class="card-text">19 is the debut studio album by English singer-songwriter Adele released on 28
+                                    January 2008</p> <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://picsum.photos/1980/500?random=7" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional
-                                    content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://picsum.photos/1980/500?random=8" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This card has even longer content than the first to show that
-                                    equal
-                                    height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4 mb-5 ">
+                            <div class="card w-80"> <img
+                                    src="https://cdn.smehost.net/sonymusiccomtw-auprod/wp-content/uploads/2021/11/19439937972-300x300.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">19</h5>
+                                    <p class="card-text">19 is the debut studio album by English singer-songwriter Adele released on 28
+                                        January 2008</p> <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                            </div>
+                            <div class="col-md-4 mb-5 ">
+                                <div class="card w-80"> <img
+                                        src="https://cdn.smehost.net/sonymusiccomtw-auprod/wp-content/uploads/2021/11/19439937972-300x300.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">19</h5>
+                                        <p class="card-text">19 is the debut studio album by English singer-songwriter Adele released on 28
+                                            January 2008</p> <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                                </div>
                 </div>
 
 
@@ -160,10 +154,12 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="box">
-                            <div class="icon text-sucess py-3 fa-5x">
+                            <div class="icon text-success py-3 fa-5x">
                                 <i class="fas fa-ghost"></i>
                             </div>
                             <h3 class="text-secondary">Apple</h3>
+                            <!-- icon 下面放一個底線動畫在css -->
+                            <div class="line bg-success"></div>
                             <p>Lorem ipsum dolor sit.</p>
                         </div>
                     </div>
@@ -186,6 +182,34 @@
                         </div>
                     </div>
                 </div>
+                <!-- row2 -->
+                <div class="row mt-5">
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <i class="fas fa-ghost"></i>
+                        <h5 class="mt-3 text-secondary">Lorem ipsum dolor sit.</h5>
+                    </div>
+                </div>
+                <!-- row2 end-->
             </div>
         </div>
         <!-- menu1 end-->
@@ -196,23 +220,265 @@
                 <div class="row">
                     <div class="col-md-2">
 
-                        <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#demo">Click to see detail</button>
+                        <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#demo">Click to
+                            see detail</button>
                         <div id="demo" class="collapse">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
                         </div>
-                        <div class="col-md-2">
-                            
-                        </div>
+                    </div>
+                    <div class="container">
+                        <h2>Hover Rows</h2>
+                        <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:
+                        </p>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
             <!-- menu2 end-->
         </div>
 
+        <!-- pills -->
+        <!--在這邊貼上的 https://getbootstrap.com/docs/4.0/components/navs/#pills -->
+        <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-around" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                        aria-controls="pills-contact" aria-selected="false">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-event-tab" data-toggle="pill" href="#pills-event" role="tab"
+                        aria-controls="pills-event" aria-selected="false">Event</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <h3>Pill 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, laudantium!</p>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <h3>Pill 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, laudantium!</p>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <h3>Pill 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, laudantium!</p>
+                </div>
+                <div class="tab-pane fade" id="pills-event" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <h3>Pill 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, laudantium!</p>
+                </div>
+            </div>
+        </div>
+        <!-- pills end -->
+
+        <!-- collapse -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <p>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Link with href
+                        </a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Button with data-target
+                        </button>
+                    </p>
+
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                            proident.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 多選 -->
+        <div class="container">
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Toggle second element</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+                    elements</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample1" aria-expanded="false"
+                    aria-controls="multiCollapseExample1">Toggle first elements</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            1.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            2.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- tabs end-->
+        <!-- collapse end-->
+
+        <!-- iframe 放影片-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/8t6h3wid0Pg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>Youtube</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Googke map -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7008093093036!2d121.41673676544717!3d25.04422564403446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7bec9ad74b1%3A0xa639904a89f26435!2z5Yue5YuV6YOo5Yue5YuV5Yqb55m85bGV572y5YyX5Z-65a6c6Iqx6YeR6aas5YiG572y5rOw5bGx6IG35qWt6KiT57e05aC0!5e0!3m2!1szh-TW!2stw!4v1638416749668!5m2!1szh-TW!2stw"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>Google Map</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fremembermecafe%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+                <div class="col-md-2">
+                    <h3>Facebook</h3>
+                    <p>可以去facebook developer貼粉絲專頁 取iframe</p>
+                </div>
+                <div class="col-md-5">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSfnif4SK37L-gQpVTt4fQR-Qhl4mxTMw5j0pFuE2NPGYAmvOQ/viewform?embedded=true"
+                        width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+                </div>
+                <div class="col-md-1">
+                    <h3>Google表單</h3>
+                    <p>估狗</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- gallery -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="image1" class="gbox">
+                        <h3 class="text-white">image1</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="grad1" class="gbox">
+                        <h3 class="text-white">顏色效果from w3s CSS Conic Gradients</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="grad" class="gbox">
+                        <h3 class="text-white">漸層改id css調色</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery end-->
+
+        <!-- footer -->
+        <footer class="mt-2 pt-2 bg-light text-white fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4 class="text-dark">1</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-dark">1</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-dark">1</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-dark">1</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                </div>
+                <div class="mt-2 py-2">
+                    <p class="text-center text-dark">&copy; copy right by ...</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end-->
+
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
